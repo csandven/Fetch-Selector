@@ -21,6 +21,6 @@ const div = document.querySelector('#top > div._9dMXo.w-third-l.mt3.w-100.ph3.ph
 const longSelector = fetchSelector(div)
 // returns: "#top div:nth-child(4) > div:nth-child(8) > p.n8Z-E > a.zE7yA"
 
-const shortSelector = fetchSelector(div)
+const shortSelector = fetchSelector(div, true)
 // returns: #top div:nth-child(4) div:nth-child(8) a.zE7yA"
 ```
