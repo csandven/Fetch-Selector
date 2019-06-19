@@ -19,5 +19,8 @@ const div = document.querySelector('#top > div._9dMXo.w-third-l.mt3.w-100.ph3.ph
 // This selector is quite long, but the function is quicker
 // than the shortened one
 const longSelector = fetchSelector(div)
+// returns: "#top div:nth-child(4) > div:nth-child(8) > p.n8Z-E > a.zE7yA"
 
+const shortSelector = fetchSelector(div)
+// returns: #top div:nth-child(4) div:nth-child(8) a.zE7yA"
 ```
