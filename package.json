@@ -1,0 +1,25 @@
+{
+  "name": "fetch-selector",
+  "version": "1.0.0",
+  "description": "Fetch a css selector from an html element",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/csandven/Fetch-Selector.git"
+  },
+  "keywords": [
+    "css",
+    "selector",
+    "genetic",
+    "algorithm"
+  ],
+  "author": "Christian Sandven",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/csandven/Fetch-Selector/issues"
+  },
+  "homepage": "https://github.com/csandven/Fetch-Selector#readme"
+}
