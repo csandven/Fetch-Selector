@@ -11,7 +11,7 @@ const isValidID = id => id[0].match(/[a-z]/i) && id.match(/[a-z0-9]+/)
  */
 export default function (elem, optimize = false) {
     if (!(elem instanceof HTMLElement))
-        throw new TypeError('getSelector: "elem" is not an instance of HTMLElement')
+        throw new TypeError('fetchSelector: "elem" is not an instance of HTMLElement')
 
     let path = '', maxIterations = 15
     while (elem) {

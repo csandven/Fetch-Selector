@@ -1,4 +1,4 @@
 
-import getSelector from './src/getSelector'
+import fetchSelector from './src/fetchSelector'
 
-export default getSelector
+export default fetchSelector

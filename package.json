@@ -4,7 +4,8 @@
   "description": "Fetch a css selector from an html element",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rollup index.js --file ./dist/bundle.js --format umd --name ./dist/bundle.js"
   },
   "repository": {
     "type": "git",
