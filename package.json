@@ -1,6 +1,6 @@
 {
   "name": "fetch-selector",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Fetch a css selector from an html element",
   "main": "index.js",
   "scripts": {
